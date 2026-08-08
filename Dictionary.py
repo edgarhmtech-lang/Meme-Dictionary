@@ -8,6 +8,6 @@ meme_dict = {
             }
 word = word.upper()
 if word in meme_dict.keys():
-    print(meme_dict[word])
+    print("We found this definition in our dictionary",meme_dict[word])
 else:
     print("The word you're looking for isn't in our dictionary, sorry 0_0")
